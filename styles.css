@@ -100,8 +100,6 @@ section {
     background-color: var(--primary);
     color: white;
 }
-
-/* === Header === */
 header {
     position: fixed;
     top: 0;
@@ -189,7 +187,6 @@ nav ul li a.active::after {
     color: var(--light);
 }
 
-/* === Hero Section === */
 .hero {
     min-height: 100vh;
     display: flex;
@@ -262,13 +259,6 @@ nav ul li a.active::after {
     opacity: 0.2;
 }
 
-@keyframes float {
-    0% { transform: translateY(0) ; }
-    50% { transform: translateY(20px) ; }
-    100% { transform: translateY(0) ; }
-}
-
-/* === About Section === */
 .about-content {
     display: flex;
     align-items: center;
@@ -339,7 +329,6 @@ nav ul li a.active::after {
     z-index: -1;
 }
 
-/* === Skills Section === */
 .skills-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -385,7 +374,6 @@ nav ul li a.active::after {
     border-radius: 3px;
 }
 
-/* Projects Section */
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -440,7 +428,7 @@ nav ul li a.active::after {
 }
 
 .project-tech span {
-    background-color: #0c1340;
+    background-color: #d5d7e1;
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 0.8rem;
@@ -573,7 +561,6 @@ nav ul li a.active::after {
     resize: vertical;
 }
 
-/* === Footer === */
 footer {
     background-color: var(--darker);
     color: var(--light);
